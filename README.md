@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles where the CMD instruction fails to execute correctly, leading to an immediate container exit. The issue stems from a missing shebang or incorrect execution path within the CMD instruction. This example uses Python's `http.server` module; however, similar problems can occur with other applications.
